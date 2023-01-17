@@ -7,7 +7,7 @@ export const HeaderContainer = styled.header`
   background: linear-gradient(311.76deg, #d4e7fe -15.24%, #ffffff 78.85%);
   height: 74.6rem;
 
-  padding-top: 2.2rem
+  padding-top: 2.2rem;
 `;
 
 export const HeaderNavigation = styled.nav`
@@ -104,6 +104,17 @@ export const HeaderContent = styled.main`
 
   margin: 0 auto;
   padding: 7.2rem 2.2rem 8.3rem;
+
+  > button {
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    /* identical to box height, or 100% */
+
+    text-align: center;
+
+    color: ${(props) => props.theme['blue-800']};
+  }
 `;
 
 export const HeaderMainContent = styled.div`
@@ -155,8 +166,6 @@ export const HeaderMainButtons = styled.div`
   gap: 1.8rem;
 
   button {
-    
-    
     padding: 2.4rem 4.2rem;
     background: #217bf4;
     box-shadow: 0px 7px 22px -6px rgba(33, 123, 244, 0.34);

@@ -51,6 +51,12 @@ export const AboutUsMainInfo = styled.div`
     li {
       position: relative;
       padding-left: 3rem;
+      font-weight: 500;
+      font-size: 1.8rem;
+      line-height: 1.8rem;
+      /* identical to box height, or 100% */
+
+      color: ${(props) => props.theme['blue-600']};
 
       &::before {
         position: absolute;

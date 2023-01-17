@@ -21,6 +21,14 @@ export const AchievementCard = styled.div<IAchievementCard>`
   border: 1px solid rgba(146, 165, 184, 0.14);
   border-radius: 14px;
 
+  h3 {
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 2rem;
+
+    color: ${(props) => props.theme['blue-700']};
+  }
+
   &:hover {
     border: transparent;
     box-shadow: 0px 26px 49px rgba(146, 165, 184, 0.14);
@@ -85,7 +93,7 @@ export const AchievementCard = styled.div<IAchievementCard>`
     line-height: 1.6rem;
 
     color: ${(props) =>
-    props.coloredLink ? props.theme['blue-800'] : props.theme['gray-600']};
+      props.coloredLink ? props.theme['blue-800'] : props.theme['gray-600']};
 
     svg {
       width: 1rem;

@@ -3,8 +3,8 @@ import {
   ValuableTeamCardImageContainer
 } from './styled';
 
-import elipseImage from '/public/assets/images/elipse.svg';
-import checkImage from '/public/assets/images/check.svg';
+import elipseImage from '/assets/images/elipse.svg';
+import checkImage from '/assets/images/check.svg';
 
 type ValuableTeamCardProps = {
   image: string;

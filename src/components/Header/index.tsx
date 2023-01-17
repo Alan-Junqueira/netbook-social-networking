@@ -1,5 +1,4 @@
 import { MagnifyingGlass } from 'phosphor-react';
-import React from 'react';
 import {
   HeaderContainer,
   HeaderContent,
@@ -10,8 +9,8 @@ import {
   InputBox
 } from './styled';
 
-import logoImage from '/public/assets/images/logo.svg';
-import headerAvatarsImage from '/public/assets/images/header-avatars.png';
+import logoImage from '/assets/images/logo.svg';
+import headerAvatarsImage from '/assets/images/header-avatars.png';
 import { Button } from '../Button';
 
 export const Header = () => {

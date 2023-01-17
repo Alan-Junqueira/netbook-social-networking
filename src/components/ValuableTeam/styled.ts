@@ -72,5 +72,6 @@ export const ValuableTeamButtonContainer = styled.div`
 export const ValuableTeamButtonCardsContainer = styled.div`
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 3rem;
 `;

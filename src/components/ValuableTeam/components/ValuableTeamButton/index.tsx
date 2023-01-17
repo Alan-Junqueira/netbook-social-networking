@@ -1,4 +1,3 @@
-import React from 'react';
 import { ValuableTeamButtonContainer } from './styled';
 
 type ValuableTeamButtonProps = {

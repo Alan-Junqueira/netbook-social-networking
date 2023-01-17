@@ -60,6 +60,7 @@ export const OurCommunityCards = styled.div`
   display: grid;
   grid-template-areas: 'col-1 col-2';
   gap: 4.4rem;
+  justify-content: center;
 
   margin-top: 6.4rem;
 `;

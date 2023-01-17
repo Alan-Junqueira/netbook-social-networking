@@ -1,13 +1,12 @@
-import React from 'react';
 import { AboutUsContainer, AboutUsImages, AboutUsMainInfo } from './styled';
 
-import about1Image from '/public/assets/images/about-1.png';
-import about2Image from '/public/assets/images/about-2.png';
-import about3Image from '/public/assets/images/about-3.png';
+import about1Image from '/assets/images/about-1.png';
+import about2Image from '/assets/images/about-2.png';
+import about3Image from '/assets/images/about-3.png';
 
 export const AboutUs = () => {
   return (
-    <AboutUsContainer id='about'>
+    <AboutUsContainer id="about">
       <AboutUsMainInfo>
         <h3>Whats Netboks?</h3>
         <h2>Why Join to Netbook Social Network?</h2>

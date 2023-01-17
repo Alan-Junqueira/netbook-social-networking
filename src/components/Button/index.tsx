@@ -1,6 +1,4 @@
-import React from 'react';
-import { ButtonContainer, IButtonContainer } from './styled';
-import { ButtonHTMLAttributes } from 'react';
+import { ButtonContainer } from './styled';
 
 type ButtonProps = {
   label: string;

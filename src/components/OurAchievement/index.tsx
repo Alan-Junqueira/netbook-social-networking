@@ -1,7 +1,7 @@
 import { Star, ArrowRight, Trophy } from 'phosphor-react';
 
-import peopleImage from '/public/assets/images/achievement-people.png';
-import githubImage from '/public/assets/images/github.svg';
+import peopleImage from '/assets/images/achievement-people.png';
+import githubImage from '/assets/images/github.svg';
 
 import {
   AchievementCard,

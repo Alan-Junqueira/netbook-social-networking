@@ -6,12 +6,12 @@ import {
   OurComunityCard
 } from './styled';
 
-import memberFriendsImage from '/public/assets/images/members-friends.svg';
-import groupsImage from '/public/assets/images/groups.svg';
-import forumImage from '/public/assets/images/forum.svg';
-import custonModuleImage from '/public/assets/images/custon-module.svg';
-import listBuilderImage from '/public/assets/images/list-builder.svg';
-import listScrollEffectsImage from '/public/assets/images/list-scroll-effects.svg';
+import memberFriendsImage from '/assets/images/members-friends.svg';
+import groupsImage from '/assets/images/groups.svg';
+import forumImage from '/assets/images/forum.svg';
+import custonModuleImage from '/assets/images/custon-module.svg';
+import listBuilderImage from '/assets/images/list-builder.svg';
+import listScrollEffectsImage from '/assets/images/list-scroll-effects.svg';
 
 export const OurCommunity = () => {
   return (

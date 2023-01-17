@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components";
+import { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyle = createGlobalStyle`
   :root {
@@ -16,8 +16,8 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    background-color: ${props => props.theme.white};
-    color: ${props => props.theme["blue-700"]};
+    background-color: ${(props) => props.theme.white};
+    color: ${(props) => props.theme['blue-700']};
     -webkit-font-smoothing: antialiased
   }
 
@@ -34,7 +34,7 @@ export const GlobalStyle = createGlobalStyle`
     color: inherit;
   }
 
-  button {
+  button, a {
     cursor: pointer;
   }
-`
+`;

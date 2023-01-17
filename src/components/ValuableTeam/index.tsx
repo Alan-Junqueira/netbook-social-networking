@@ -7,10 +7,10 @@ import {
   ValuableTeamContainer
 } from './styled';
 
-import fahimRahmanImage from '/public/assets/images/fahin-rahman.png';
-import kaziRahmanImage from '/public/assets/images/kazi-rahman.png';
-import mastereroAliImage from '/public/assets/images/masterero-ali.png';
-import aliaKaronImage from '/public/assets/images/alia-karon.png';
+import fahimRahmanImage from '/assets/images/fahin-rahman.png';
+import kaziRahmanImage from '/assets/images/kazi-rahman.png';
+import mastereroAliImage from '/assets/images/masterero-ali.png';
+import aliaKaronImage from '/assets/images/alia-karon.png';
 
 export const ValuableTeam = () => {
   return (

@@ -1,10 +1,11 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 
 export const OurCommunityContainer = styled.section`
   display: flex;
   flex-direction: column;
 
   padding: 6rem 17.6rem 8rem;
+  margin-bottom: 4.6rem;
 
   background-image: linear-gradient(
     0deg,
@@ -55,20 +56,19 @@ export const OurCommunityHeaderContent = styled.div`
   }
 `;
 
-
 export const OurCommunityCards = styled.div`
   display: grid;
   grid-template-areas: 'col-1 col-2';
   gap: 4.4rem;
-  
+
   margin-top: 6.4rem;
-  `;
+`;
 
 interface IOurCommunityCard {
-  variant: 'blue' | 'orange' | 'red'
+  variant: 'blue' | 'orange' | 'red';
 }
 
-export const OurComunityCard = styled.div`
+export const OurComunityCard = styled.div<IOurCommunityCard>`
   display: flex;
   gap: 3.6rem;
 
@@ -78,17 +78,77 @@ export const OurComunityCard = styled.div`
   width: 100%;
   height: 18.2rem;
 
+  border-radius: 1.4rem;
   background-color: ${(props) => props.theme.white};
 
+  &:hover {
+    box-shadow: 14px 22px 52px -12px rgba(127, 127, 127, 0.13);
+  }
+
   div:first-child {
-    background-color: red;
-    width: 2rem;
-    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    min-width: 6.6rem;
+    height: 6.6rem;
+
+    border-radius: 2.4rem;
+
+    ${(props) =>
+      props.variant === 'blue' &&
+      css`
+        background: linear-gradient(
+          154.49deg,
+          ${props.theme['blue-300']} 6.61%,
+          ${props.theme['blue-800']} 89.72%
+        );
+        box-shadow: 0px 10px 22px -2px rgba(109, 171, 255, 0.36);
+      `};
+
+    ${(props) =>
+      props.variant === 'orange' &&
+      css`
+        background: linear-gradient(
+          154.49deg,
+          ${props.theme['orange-300']} 6.61%,
+          ${props.theme['orange-500']} 89.72%
+        );
+        box-shadow: 0px 10px 22px -2px rgba(250, 186, 84, 0.3);
+      `};
+
+    ${(props) =>
+      props.variant === 'red' &&
+      css`
+        background: linear-gradient(
+          154.49deg,
+          ${props.theme['red-300']} 6.61%,
+          ${props.theme['red-500']} 89.72%
+        );
+        box-shadow: 0px 8px 22px -2px rgba(248, 87, 94, 0.3);
+      `};
+
+    img {
+      width: 3.4rem;
+      height: 3.4rem;
+    }
   }
 
   h4 {
+    font-weight: 600;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+
+    color: ${(props) => props.theme['blue-200']};
+
+    margin-bottom: 1.4rem;
   }
 
   p {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+
+    color: ${(props) => props.theme['gray-100']};
   }
 `;

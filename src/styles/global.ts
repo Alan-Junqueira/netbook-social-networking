@@ -22,7 +22,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body, input, text-area, button {
-    font: 400 1.6rem 'Inter', sans-serif
+    font: 400 'Inter', sans-serif
   }
 
   ul, li {

@@ -98,6 +98,7 @@ export const AchievementMainContent = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin-left: 9.3rem;
 
   h3 {
     font-weight: 500;

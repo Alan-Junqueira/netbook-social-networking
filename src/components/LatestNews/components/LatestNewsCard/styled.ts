@@ -7,6 +7,14 @@ export const LatestNewsCardContainer = styled.div`
     height: auto;
 
     border-radius: 1.6rem;
+
+    filter: grayscale(100%);
+
+    transition: all ease .4s;
+
+    &:hover {
+      filter: grayscale(0);
+    }
   }
 
   h4 {
@@ -17,6 +25,9 @@ export const LatestNewsCardContainer = styled.div`
 
     margin-left: 6.7rem;
     margin-block: 2.4rem;
+
+    max-width: 25rem;
+    width: 100%;
 
     color: ${(props) => props.theme['blue-200']};
 

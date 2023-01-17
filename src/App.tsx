@@ -5,6 +5,7 @@ import { Header } from './components/Header';
 import { LatestNews } from './components/LatestNews';
 import { OurAchievement } from './components/OurAchievement';
 import { OurCommunity } from './components/OurCommunity';
+import { Footer } from './components/partials/Footer';
 import { ValuableTeam } from './components/ValuableTeam';
 import { GlobalStyle } from './styles/global';
 import { defaultTheme } from './styles/themes/default';
@@ -20,6 +21,7 @@ function App() {
       <ValuableTeam />
       <GetOurAplication />
       <LatestNews />
+      <Footer />
     </ThemeProvider>
   );
 }

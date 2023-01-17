@@ -91,9 +91,12 @@ export const Footer = () => {
         </FooterMenuContainer>
         <FooterNewsletterContainer>
           <h4>Subscribe Cirkle Newsletter</h4>
-          <p>Newsletter</p>
+          <p>
+            Subscribe to be the first one to know about updates. Enter your
+            email
+          </p>
           <div>
-            <input type="text" name="" id="" placeholder='Email Address'/>
+            <input type="text" name="" id="" placeholder="Email Address" />
             <button>Subscribe</button>
           </div>
         </FooterNewsletterContainer>

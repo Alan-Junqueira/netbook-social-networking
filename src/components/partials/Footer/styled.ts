@@ -49,6 +49,8 @@ export const FooterNewsletterContainer = styled.div`
   display: flex;
   flex-direction: column;
   margin-left: 12rem;
+  max-width: 34rem;
+  width: 100%;
 
   h4 {
     font-weight: 500;
@@ -64,6 +66,8 @@ export const FooterNewsletterContainer = styled.div`
     line-height: 2.8rem;
 
     color: ${(props) => props.theme['gray-70']};
+
+    margin: 3.3rem 0 1.8rem 0;
   }
 
   div {

@@ -10,6 +10,9 @@ export const ValuableTeamCardContainer = styled.div`
 
   padding: 3rem 5rem;
 
+  max-width: 27rem;
+  width: 100%;
+
   h4 {
     font-weight: 600;
     font-size: 2.4rem;
@@ -36,9 +39,9 @@ export const ValuableTeamCardContainer = styled.div`
 
 export const ValuableTeamCardImageContainer = styled.div`
   position: relative;
-  overflow: hidden;
-  width: 16.6rem;
-  height: 17.7rem;
+  max-width: 16.6rem;
+  width: 100%;
+  height: auto;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -52,7 +55,7 @@ export const ValuableTeamCardImageContainer = styled.div`
 
     color: ${(props) => props.theme.white};
     background-color: ${(props) => props.theme['blue-800']};
-    bottom: 0;
+    bottom: -1.2rem;
     width: 2.4rem;
     height: 2.4rem;
     border-radius: 50%;
@@ -63,7 +66,8 @@ export const ValuableTeamCardImageContainer = styled.div`
   div:last-child {
     img {
       background: ${(props) => props.theme['blue-50']};
-      width: 13.8rem;
+      max-width: 13.8rem;
+      width: 100%;
       height: auto;
       border-radius: 50%;
     }

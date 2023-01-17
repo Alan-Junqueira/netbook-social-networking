@@ -1,6 +1,11 @@
 # netbook-social-networking
 Landing page from figma community @uihutofficial
 
+
+## Link do deploy
+- https://netbook-social-networking.vercel.app/
+- Não está responsivo
+
 # figma
 - https://www.figma.com/file/pHOLaX2GsJJz0QlFewS8oq/Free-Landing-Page-Design-(Community)?node-id=0%3A1&t=mukL6aaNgTib8Nno-0
 
